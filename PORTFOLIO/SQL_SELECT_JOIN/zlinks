@@ -1,0 +1,12 @@
+L2-02 28.10 Основы баз данных. SQL
+https://www.youtube.com/watch?v=5mz0Do1M8pg&list=PL3PnYOkMjWREcHcljBlrAt7oV8v2AneQr&index=10
+
+4:00 web сервер + app сервер + DB server. 30 запросов в базу данных (практика SQL)
+5:35 База Данных 6:16 СУБД 9:12 Модель взаимодействия
+9:31 ОТНОШЕНИЯ МЕЖДУ ТАБЛИЦАМИ 14:00 НОРМАЛИЗАЦИЯ (3 формы)
+20:19 SQL 23:28 ключевые слова SQL 25:45 шпаргалка SELECT (!)
+30:00 SELECT * 31:22 (DISTINCT) 32:55 (WHERE) 33:40 (BETWEEN) 36:17 (IN) 37:07 (LIKE) 40:47 (IS NULL)
+44:13 (AND, OR, NOT) 46:00 (ORDER BY Clause)
+55:41 JOIN (!)
+56:40 INNER Join 1:00:10 LEFT Join / RIGHT Join / FULL Join
+2:17:40 Hometask

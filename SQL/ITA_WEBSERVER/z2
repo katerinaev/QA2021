@@ -1,0 +1,74 @@
+L2-01 26.10 Веб ориентированные технологии. APACHE
+https://www.youtube.com/watch?v=FpD2rm9aSNM&list=PL3PnYOkMjWREcHcljBlrAt7oV8v2AneQr&index=9
+
+11:59 ВЕБ СЕРВЕР 12:50КЛИЕНТ 13:22 КЛИЕНТ СЕРВЕРНАЯ АРХИТЕКТУРА
+14:50 ЗАПРОС ОТВЕТ 27:00 URL 28:15 HTTP Запрос HTTP Ответ
+31:00 CONTENT статичеcкий динамический FRONTEND BACKEND
+46:25 толстый и тонкий клиент
+55:25 структура веб приложений 56:30 Валидация
+1:09:50 HTTP Status codes
+1xx informational 2xx success 3xx redirection 4xx client error 1:11:40 5xx server error 1:12:48
+1:20:44 ОСОБЕННОСТИ ПОДГОТОВКИ и ПРОВЕДЕНИЯ ТЕСТИРОВАНИЯ ВЕБ ПРИЛОЖЕНИЙ
+1:41:33 ТЕСТОВОЕ ОКРУЖЕНИЕ
+1:59:55 HOMEWORK TASK - установить Apache
+2:11:59 practice in class
+
+APACHE
+
+https://www.apachelounge.com/download/
+https://www.youtube.com/watch?v=jUeAYX30uGs
+https://www.youtube.com/watch?v=K69zmUcpsAo
+
+Installing Apache PHP MYSQL on Windows 10
+https://www.youtube.com/watch?v=qpPYYX-i1cs
+Install Full Webserver On Windows 10 | Apache PHP 8.0 MySQL
+https://www.youtube.com/watch?v=LPeEUxXpL3c
+1.
+ServerName www.example.com:80
+изменим Servername на Localhost
+ServerName localhost
+2.
+ServerRoot "${SRVROOT}"
+изменим Serverroot на адрес нашей папки
+ServerRoot "c:/Apache24"
+3.
+DocumentRoot "${SRVROOT}/htdocs"
+изменим DocumentRoot на папку встроенного сайта (/ дублируем Directory)
+DocumentRoot "c:/Apache24/htdocs"
+<Directory "c:/Apache24/htdocs">
+4.
+DirectoryIndex index.html
+добавим индексные файлы через пробел
+DirectoryIndex index.html index.htm index.php
+
+Запуск
+To Start Apache in the command prompt type:
+c:\Apache24\bin\httpd.exe
+To install as a service. Open command prompt as Administrator and type:
+c:\Apache24\bin\httpd.exe -k install
+You can start/stop the service with the command:
+>httpd -k stop  >httpd -k start  >httpd -k restart
+  >services.msc (or using ApacheMonitor)
+
+To see all Command line options:
+ >httpd -h
+c:\Apache24\bin\httpd.exe -h
+
+--- PHP ---
+https://www.youtube.com/watch?v=LPeEUxXpL3c&t=259s
+
+- Download PHP VS16 x64 Thread Safe: https://windows.php.net/download#php-8.0
+- Create a Folder called "php" in C:/
+- Copy-Paste everything from the Zip-File into the "php" folder
+- Open Apache configuration file in C:/Apache24/conf/httpd.conf
+- Add the following lines underneath the last "#LoadModule" lines:
+
+LoadModule php_module "c:/php/php8apache2_4.dll"
+AddType Application/x-httpd-php .php
+PHPIniDir "c:/php"
+
+- Add "index.php" after "DirectoryIndex"
+- Create a "index.php" file in c:/Apache24/htdocs
+- Add the following lines: " <?php phpinfo() ?>"
+- Restart Apache in your CMD window
+- Command: httpd -k restart

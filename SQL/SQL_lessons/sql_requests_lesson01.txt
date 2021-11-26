@@ -1,0 +1,60 @@
+(!)
+Learn SQL In 60 Minutes
+https://www.youtube.com/watch?v=p3qvj9hO_Bo (!)
+Learn SQL
+https://github.com/WebDevSimplified/Learn-SQL (!)
+
+SQL SLIDES ALBUM
+https://photos.app.goo.gl/wZE3f8293C8CFqbp7
+
+
+---------
+
+Топ бесплатных курсов SQL с нуля для начинающих и продвинутых
+https://www.youtube.com/watch?v=cIBnV7ev0P4
+Artyom Rusau
+Урок 20	SQL для тестировщика. Как создать таблицы в MySQL для QA
+https://www.youtube.com/watch?v=fXxB2pN3_30&list=PLKbJd47Kcbju2Vhi-FL7AI14vItVmGYk-&index=20
+Урок 21	Запросы SELECT в SQL/MySQL для тестировщика
+https://www.youtube.com/watch?v=4uyxTMh0g4E&list=PLKbJd47Kcbju2Vhi-FL7AI14vItVmGYk-&index=21
+Урок 22	Запросы Join в SQL/MySQL на примерах для тестировщика
+https://www.youtube.com/watch?v=e-kPUCAkZyU&list=PLKbJd47Kcbju2Vhi-FL7AI14vItVmGYk-&index=22
+
+MySQL Tutorial for Beginners [Full Course]
+https://www.youtube.com/watch?v=7S_tz1z_5bA
+
+
+MYSQL
+---
+MySQL Installer
+https://dev.mysql.com/downloads/installer/
+APACHE
+https://www.apachelounge.com/download/
+https://www.youtube.com/watch?v=jUeAYX30uGs
+https://www.youtube.com/watch?v=K69zmUcpsAo
+ (!)
+Install Full Webserver On Windows 10 | Apache PHP 8.0 MySQL
+https://www.youtube.com/watch?v=LPeEUxXpL3c
+Installing Apache PHP MYSQL on Windows 10
+https://www.youtube.com/watch?v=qpPYYX-i1cs
+
+How To Install MySQL (Server and Workbench)
+https://www.youtube.com/watch?v=u96rVINbAUI
+
+---
+L2-02 28.10 Основы баз данных. SQL
+https://www.youtube.com/watch?v=5mz0Do1M8pg&list=PL3PnYOkMjWREcHcljBlrAt7oV8v2AneQr&index=10
+
+4:00 web сервер + app сервер + DB server. 30 запросов в базу данных (практика SQL)
+5:35 База Данных 6:16 СУБД 9:12 Модель взаимодействия
+9:31 ОТНОШЕНИЯ МЕЖДУ ТАБЛИЦАМИ 14:00 НОРМАЛИЗАЦИЯ (3 формы)
+20:19 SQL 23:28 ключевые слова SQL 25:45 шпаргалка SELECT (!)
+30:00 SELECT * 31:22 (DISTINCT) 32:55 (WHERE) 33:40 (BETWEEN) 36:17 (IN) 37:07 (LIKE) 40:47 (IS NULL)
+44:13 (AND, OR, NOT) 46:00 (ORDER BY Clause)
+55:41 JOIN (!)
+56:40 INNER Join 1:00:10 LEFT Join / RIGHT Join / FULL Join
+2:17:40 Hometas
+
+
+
+
