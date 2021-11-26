@@ -1,0 +1,68 @@
+Подключение:
+
+1. Открываем cmd (Alt+Enter – развернуть на весь экран)
+2. Подключаемся к linux серверу:
+ssh tester@178.124.206.52
+-> [Enter]
+tester_pwd -> [Enter] - когда просит пароль (пароль при вводе не отображается!!!!!)
+3. mysql -u voodoo_user -h 178.124.206.46 -P 33306 -p <– подключаемся к СУБД
+à [Enter]
+pwd: voodoo_pwd ] - когда просит пароль (пароль при вводе не отображается!!!!!)
+4. Подключиться к базе данных voodoo: USE voodoo;
+
+----cmd подключения к Voodoo :
+
+Microsoft Windows [Version 10.0.19043.1288]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+C:\Users\ideapro>ssh tester@178.124.206.52
+The authenticity of host '178.124.206.52 (178.124.206.52)' can't be established.
+ECDSA key fingerprint is SHA256:xZhF29R47MyIWk1SO1oNob3wxAfEPbo/yUS5gJ7j0s8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added '178.124.206.52' (ECDSA) to the list of known hosts.
+tester@178.124.206.52's password:
+Welcome to Ubuntu 16.04.7 LTS (GNU/Linux 4.4.0-194-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Sun Oct 31 13:20:05 +03 2021
+
+  System load:                    1.04
+  Usage of /:                     21.9% of 51.80GB
+  Memory usage:                   27%
+  Swap usage:                     16%
+  Processes:                      206
+  Users logged in:                1
+  IP address for eth0:            178.124.206.52
+  IP address for br-0f8417ce6b8b: 172.19.0.1
+  IP address for docker0:         172.17.0.1
+  IP address for br-ad8f71f2a0a5: 172.18.0.1
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+115 packages can be updated.
+93 updates are security updates.
+
+New release '18.04.6 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Sun Oct 31 13:17:35 2021 from 46.53.249.253
+tester@testers:~$ mysql -u voodoo_user -h 178.124.206.46 -P 33306 -p
+Enter password:
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 98026
+Server version: 5.7.28 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql>
