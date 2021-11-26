@@ -1,0 +1,48 @@
+L2-02 28.10 Основы баз данных. SQL
+
+https://www.youtube.com/watch?v=5mz0Do1M8pg&list=PL3PnYOkMjWREcHcljBlrAt7oV8v2AneQr&index=10
+
+4:00 web сервер + app сервер + DB server. 30 запросов в базу данных (практика SQL)
+5:35 База Данных 6:16 СУБД 9:12 Модель взаимодействия
+9:31 ОТНОШЕНИЯ МЕЖДУ ТАБЛИЦАМИ 14:00 НОРМАЛИЗАЦИЯ (3 формы)
+20:19 SQL 23:28 ключевые слова SQL 25:45 шпаргалка SELECT (!)
+30:00 SELECT * 31:22 (DISTINCT) 32:55 (WHERE) 33:40 (BETWEEN) 36:17 (IN) 37:07 (LIKE) 40:47 (IS NULL)
+44:13 (AND, OR, NOT) 46:00 (ORDER BY Clause)
+55:41 JOIN (!)
+56:40 INNER Join 1:00:10 LEFT Join / RIGHT Join / FULL Join
+2:17:40 Hometask
+
+2:17:40 Hometask
+1. Установить MySQL (очень желательно убедиться, что вы ставите версию совместимую с версией вашего Apache) и запустить как сервис
+2. Подключиться к MySQL
+3. Создать базу данный с именем megaapp (команда CREATE) и выбрать ее (команда USE)
+4. Создать пользователя megaapp_user c паролем megaapp_app_user_pwd (команда CREATE)
+5. Предоставить пользователю megaapp_user права на команду SELECT для базы данных megaapp (команда GRANT)
+6. В базе данных megaapp создать таблицу users в которой должно быть 3 колонки (команда CREATE):
+user_id, тип int(11), первичный ключ
+user_login, тип  varchar(255)
+user_password, тип  char(40)
+7. В таблицу users вставить следующие данные (команда INSERT)
+user_id - 1
+user_login - user
+user_password - 40bd001563085fc35165329ea1ff5c5ecbdbbeef
+8. Сделать скриншот выборки всех записей из получившейся таблицы и прислать его во вложении к ответу письма.
+
+
+
+
+--------
+MySQL Installer
+https://dev.mysql.com/downloads/installer/
+Install Full Webserver On Windows 10 | Apache PHP 8.0 MySQL (!)
+https://www.youtube.com/watch?v=LPeEUxXpL3c
+Installing Apache PHP MYSQL on Windows 10
+https://www.youtube.com/watch?v=qpPYYX-i1cs
+How To Install MySQL (Server and Workbench)
+https://www.youtube.com/watch?v=u96rVINbAUI
+(!)(!)
+Learn SQL In 60 Minutes
+https://www.youtube.com/watch?v=p3qvj9hO_Bo
+MySQL Tutorial for Beginners [Full Course]
+https://www.youtube.com/watch?v=7S_tz1z_5bA
+
